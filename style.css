@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    padding: 60px;
+}
+
+.left {
+    width: 40%;
+}
+
+.left h1 {
+    font-size: 48px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.left h2 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.right {
+    width: 60%;
+    padding-left: 40px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.right p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 60px;
+    color: gold;
+}
